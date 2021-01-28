@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+}
+#menuVar{
+    background: rgb(4, 4, 90);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#menuVar a{
+    color: #ffffff;
+    font-size: 13px;
+    padding-right: 5px;
+}
+#navbar{
+    background: #fff!important;
+    position: sticky;
+}
+#navbar a{
+    color:  rgb(0, 0, 90);
+}
+#navbar ul li a:hover{
+    color:  #FFC107;
+}
+#home{
+    background-color: rgb(241, 236, 236);
+}
+#home h1{
+    color: rgb(0, 0, 90);
+}
+#services{
+    outline: none;
+    background-color:  rgb(0, 0, 90);
+    color: white;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+#contact{
+    
+    margin-left: 10px;
+        outline: none;
+        background-color:  #F9B700;
+        color: white;
+        padding: 5px 10px;
+        font-size: 13px;
+}
+#client-reiview{
+    background-color: rgb(0, 0, 90);
+}
+#client-reiview span{
+    color: white;
+    font-size: 30px;
+}
+#client-reiview p{
+    color: #F9B700;
+    font-size: 8px;
+}
+.vdo-size{
+    outline: none;
+}
+.antu{
+    font-size: 35px;
+    color: #fff;
+}
+#client-reiview h3{
+    color: #F9B700;   
+}
+.review-end{
+    color: white!important;
+}
+#consulting{
+    background-color: #fff;
+}
+#consulting p{
+    font-size: 12px;
+    color: rgb(0, 0, 90);
+}
+#consulting h2{
+    color: rgb(0, 0, 90);
+}
+#consulting i{
+    color: #F9B700;
+}
+.dolo{
+    float: right;
+    color: rgb(0, 0, 90);
+    margin-left: 5px;
+}
+.learn-more{
+    background-color:  rgb(0, 0, 90);
+    color: white;
+}
+#happy-client{
+    background-color: #fff;
+}
+.heading{
+    color: rgb(0, 0, 90);
+}
+.paragraph{
+    color: #000!important;
+    font-size: 11px!important;
+}
+
+/* consultinf offers */
+#consulting-offers{
+    background-color: #F9B700!important;
+}
+.cations{
+    color: rgb(0, 0, 90);
+}
+.sees{
+    background-color:  rgb(0, 0, 90);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* learn section */
+#learn{
+    background-color: #fff;
+}
+.marKeting{
+    padding-left: 15px!important;
+    color: rgb(0, 0, 90);
+}
+.consectetur{
+    padding-left: 15px!important;
+}
+
+/* collback section */
+.information{
+    padding: 5px 100px 5px 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 2%;
+    outline: none;
+}
+.informations{
+    font-size: 13px;
+    padding: 5px 74px;
+    border: none;
+    border-radius: 2%;
+    outline: none;
+}
+/* news section start */
+#our-news{
+    background-color: white;
+}
+.news{
+    color: rgb(0, 0, 90);
+}
+.special{
+    background-color: rgb(0, 0, 90);
+}
+.readBtn{
+    margin-right: -350px!important;
+    font-size: 12px!important;
+    cursor: pointer;
+}
+/* main team section*/
+#main-team{
+    background-color: #fff;
+}
+.staff{
+    color: rgb(0, 0, 90);
+}
+.preview-team{
+    background-color:  #F9B700!important;
+    color: #fff;
+    margin-left: 190px!important;
+}
+.Rowlend{
+    color: rgb(0, 0, 90);
+}
+/* help section */
+#help{
+    background-image: url(/img/porfolio-11.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.help-you{
+    background-color: rgb(0, 0, 90);
+}
+.contact-form{
+    outline: none;
+    padding: 2px 10px;
+    border-radius: 2%;
+}
+#contact-form{
+    outline: none;
+    padding: 5px 10px;
+}
+.reQuest{
+    padding: 4px 189px;
+    outline: none;
+    border: none;
+}
+.Iconse-size{
+    font-size: 13px!important;
+    padding-right: 5px!important;
+}
+.mn-size{
+    padding-right: 6px;
+}
+/* consulting section */
+#logo-consulting{
+    background-color: rgb(3, 3, 63);
+}
+/* details */
+.mn-sizees{
+    font-size: 12px;
+}
+#details{
+    background-color: rgb(0, 0, 90);
+}
+#details a{
+    color: white;
+}
+.paragraphCl{
+    color: #fff;
+}
+.subscribe-in{
+    margin-top: 10px;
+    outline: none;
+    padding: 5px 40px 5px 10px;
+    border-radius: 2%;
+}
+#subscribeBtn{
+    outline: none;
+    padding: 5px 63px;
+    background: #F9B700;
+    color: #fff;
+    border-radius: 2%;
+}
+/* footer section start */
+#footer-section{
+    background-color: rgb(3, 3, 63);
+}
